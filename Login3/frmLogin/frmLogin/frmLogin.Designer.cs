@@ -30,11 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
             this.panelLogar = new System.Windows.Forms.Panel();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.txtSenha = new System.Windows.Forms.TextBox();
             this.lCadastrar = new System.Windows.Forms.LinkLabel();
             this.btnLogar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panelCadastrar = new System.Windows.Forms.Panel();
+            this.lLogar = new System.Windows.Forms.LinkLabel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.txtSenhaCad = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
@@ -42,12 +48,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.lLogar = new System.Windows.Forms.LinkLabel();
-            this.txtSenha = new System.Windows.Forms.TextBox();
-            this.txtName = new System.Windows.Forms.TextBox();
             this.panelLogar.SuspendLayout();
             this.panelCadastrar.SuspendLayout();
             this.SuspendLayout();
@@ -61,10 +61,29 @@
             this.panelLogar.Controls.Add(this.btnLogar);
             this.panelLogar.Controls.Add(this.label2);
             this.panelLogar.Controls.Add(this.label1);
-            this.panelLogar.Location = new System.Drawing.Point(127, -1);
+            this.panelLogar.Location = new System.Drawing.Point(137, -15);
             this.panelLogar.Name = "panelLogar";
-            this.panelLogar.Size = new System.Drawing.Size(337, 168);
+            this.panelLogar.Size = new System.Drawing.Size(352, 168);
             this.panelLogar.TabIndex = 0;
+            // 
+            // txtName
+            // 
+            this.txtName.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtName.Location = new System.Drawing.Point(94, 36);
+            this.txtName.MaxLength = 18;
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(193, 22);
+            this.txtName.TabIndex = 20;
+            // 
+            // txtSenha
+            // 
+            this.txtSenha.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSenha.Location = new System.Drawing.Point(94, 73);
+            this.txtSenha.MaxLength = 14;
+            this.txtSenha.Multiline = true;
+            this.txtSenha.Name = "txtSenha";
+            this.txtSenha.Size = new System.Drawing.Size(193, 24);
+            this.txtSenha.TabIndex = 19;
             // 
             // lCadastrar
             // 
@@ -134,84 +153,25 @@
             this.panelCadastrar.Controls.Add(this.label3);
             this.panelCadastrar.Controls.Add(this.label4);
             this.panelCadastrar.Controls.Add(this.label5);
-            this.panelCadastrar.Location = new System.Drawing.Point(127, 20);
+            this.panelCadastrar.Location = new System.Drawing.Point(110, 15);
             this.panelCadastrar.Name = "panelCadastrar";
             this.panelCadastrar.Size = new System.Drawing.Size(422, 188);
             this.panelCadastrar.TabIndex = 19;
             this.panelCadastrar.Paint += new System.Windows.Forms.PaintEventHandler(this.panelCadastrar_Paint);
             // 
-            // btnCadastrar
+            // lLogar
             // 
-            this.btnCadastrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.btnCadastrar.Font = new System.Drawing.Font("Jokerman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCadastrar.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.btnCadastrar.Location = new System.Drawing.Point(178, 144);
-            this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(176, 29);
-            this.btnCadastrar.TabIndex = 20;
-            this.btnCadastrar.Text = "Cadastrar";
-            this.btnCadastrar.UseVisualStyleBackColor = false;
-            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
-            // 
-            // txtSenhaCad
-            // 
-            this.txtSenhaCad.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSenhaCad.Location = new System.Drawing.Point(178, 78);
-            this.txtSenhaCad.Name = "txtSenhaCad";
-            this.txtSenhaCad.Size = new System.Drawing.Size(176, 23);
-            this.txtSenhaCad.TabIndex = 19;
-            // 
-            // txtEmail
-            // 
-            this.txtEmail.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.Location = new System.Drawing.Point(178, 38);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(176, 23);
-            this.txtEmail.TabIndex = 18;
-            // 
-            // txtUsu
-            // 
-            this.txtUsu.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsu.Location = new System.Drawing.Point(178, 1);
-            this.txtUsu.Name = "txtUsu";
-            this.txtUsu.Size = new System.Drawing.Size(176, 23);
-            this.txtUsu.TabIndex = 17;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Jokerman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(-65, 14);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(57, 24);
-            this.label3.TabIndex = 16;
-            this.label3.Text = "Email:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Jokerman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(-65, 50);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 24);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "Senha:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Jokerman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(-65, -21);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(149, 24);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "Nome de usuário:";
+            this.lLogar.AutoSize = true;
+            this.lLogar.Font = new System.Drawing.Font("Jokerman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lLogar.ForeColor = System.Drawing.Color.Chocolate;
+            this.lLogar.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.lLogar.Location = new System.Drawing.Point(340, 117);
+            this.lLogar.Name = "lLogar";
+            this.lLogar.Size = new System.Drawing.Size(58, 24);
+            this.lLogar.TabIndex = 24;
+            this.lLogar.TabStop = true;
+            this.lLogar.Text = "Logar";
+            this.lLogar.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lLogar_LinkClicked);
             // 
             // label6
             // 
@@ -249,34 +209,84 @@
             this.label8.TabIndex = 21;
             this.label8.Text = "Nome de usuário:";
             // 
-            // lLogar
+            // btnCadastrar
             // 
-            this.lLogar.AutoSize = true;
-            this.lLogar.Font = new System.Drawing.Font("Jokerman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lLogar.ForeColor = System.Drawing.Color.Chocolate;
-            this.lLogar.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.lLogar.Location = new System.Drawing.Point(297, 116);
-            this.lLogar.Name = "lLogar";
-            this.lLogar.Size = new System.Drawing.Size(58, 24);
-            this.lLogar.TabIndex = 24;
-            this.lLogar.TabStop = true;
-            this.lLogar.Text = "Logar";
-            this.lLogar.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lLogar_LinkClicked);
+            this.btnCadastrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.btnCadastrar.Font = new System.Drawing.Font("Jokerman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastrar.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.btnCadastrar.Location = new System.Drawing.Point(222, 144);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(176, 29);
+            this.btnCadastrar.TabIndex = 20;
+            this.btnCadastrar.Text = "Cadastrar";
+            this.btnCadastrar.UseVisualStyleBackColor = false;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
-            // txtSenha
+            // txtSenhaCad
             // 
-            this.txtSenha.Location = new System.Drawing.Point(94, 73);
-            this.txtSenha.Multiline = true;
-            this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(193, 24);
-            this.txtSenha.TabIndex = 19;
+            this.txtSenhaCad.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSenhaCad.Location = new System.Drawing.Point(178, 78);
+            this.txtSenhaCad.MaxLength = 14;
+            this.txtSenhaCad.Multiline = true;
+            this.txtSenhaCad.Name = "txtSenhaCad";
+            this.txtSenhaCad.Size = new System.Drawing.Size(220, 22);
+            this.txtSenhaCad.TabIndex = 19;
             // 
-            // txtName
+            // txtEmail
             // 
-            this.txtName.Location = new System.Drawing.Point(94, 36);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(193, 20);
-            this.txtName.TabIndex = 20;
+            this.txtEmail.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmail.Location = new System.Drawing.Point(178, 41);
+            this.txtEmail.MaxLength = 18;
+            this.txtEmail.Multiline = true;
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(220, 23);
+            this.txtEmail.TabIndex = 18;
+            // 
+            // txtUsu
+            // 
+            this.txtUsu.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsu.Location = new System.Drawing.Point(179, 3);
+            this.txtUsu.MaxLength = 15;
+            this.txtUsu.Multiline = true;
+            this.txtUsu.Name = "txtUsu";
+            this.txtUsu.Size = new System.Drawing.Size(219, 23);
+            this.txtUsu.TabIndex = 17;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Jokerman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(-65, 14);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(57, 24);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "Email:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Jokerman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(-65, 50);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(64, 24);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "Senha:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Jokerman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(-65, -21);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(149, 24);
+            this.label5.TabIndex = 14;
+            this.label5.Text = "Nome de usuário:";
             // 
             // frmLogin
             // 

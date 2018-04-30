@@ -63,6 +63,16 @@ namespace Principal.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap certoo {
+            get {
+                object obj = ResourceManager.GetObject("certoo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap NÃO_PERCA_ISSO_DENOVO {
             get {
                 object obj = ResourceManager.GetObject("NÃO PERCA ISSO DENOVO", resourceCulture);
