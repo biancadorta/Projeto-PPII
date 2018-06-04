@@ -14,6 +14,8 @@ namespace Login
     public partial class frmCadastro : Form
     {
         String cs = Properties.Settings.Default.ConnectionString;
+        frmLogin login;
+        frmCadastro cad;
         public frmCadastro()
         {
             InitializeComponent();
@@ -33,17 +35,19 @@ namespace Login
                     // 1 - Estabelecer a conexao 
                     SqlConnection con = new SqlConnection();
                     con.ConnectionString = cs;
-                    string str = "Insert into Usuario values(@email,@usuario,@senha)";
-                    SqlCommand cmd = new SqlCommand(str,con);
-                    cmd.Parameters.AddWithValue("@email",txtEmail.Text);
-                    cmd.Parameters.AddWithValue("@usuario",txtUsu.Text);
-                    cmd.Parameters.AddWithValue("@usuario", txtSenha.Text); //codificar senha
+                    string str = "Insert into Usuario values(@nome,@email,@senha,@pontuacao)";
+                    SqlCommand cmd = new SqlCommand(str,con);              
+        
+                    cmd.Parameters.AddWithValue("@nome", txtUsu.Text);
+                    cmd.Parameters.AddWithValue("@email", txtEmail.Text);
+                    //cmd.Parameters.AddWithValue("@senha", txtSenha.Text); //codificar senha
+                    cmd.Parameters.AddWithValue("@pontuacao",0);
                     con.Open();
 
                     if(cmd.ExecuteNonQuery() == 1){
                         MessageBox.Show("Cadastro feito com sucesso.");
-                        //Form.Close();
-                        //frmLogin.Open();                        
+                        cad.Close();
+                        login.Show();                        
                     }
                     else
                     {
@@ -60,9 +64,19 @@ namespace Login
                 }
                 catch (SqlException erro)
                 {
-                    MessageBox.Show("Erro: /n" + erro.Message);
+                    MessageBox.Show("Erro: " + erro.Message.ToString());
                 }
             }
+        }
+
+        private void frmCadastro_Load(object sender, EventArgs e)
+        {
+            txtSenha.PasswordChar = '*';
+        }
+
+        private void txtUsu_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

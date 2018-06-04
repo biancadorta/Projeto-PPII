@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace Login
 {
-    public partial class frmPrincipal : Form
+    public partial class Principal : Form
     {
-        public frmPrincipal()
+        
+        public Principal()
         {
             InitializeComponent();
+        }
+
+        private void ordemDosPlanetasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

@@ -1,0 +1,6 @@
+Melhorar:
+	- Mostrar quais questões ele errou 
+	- Mostrar a pontuação dele atual
+	- mostrar o ranking de quem está na frente
+	- Após ele ordenar todos os planetas para o timer e mostrar a ele seu tempo 
+	- Zerar o timer toda vez que inicia a instancia do DragDrop

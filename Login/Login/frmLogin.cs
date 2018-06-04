@@ -15,12 +15,13 @@ namespace Login
     {
         String cs = Properties.Settings.Default.ConnectionString;
         frmCadastro cadastro;
-        frmPrincipal principal;
+        Principal principal;
+        
         public frmLogin()
         {
             InitializeComponent();
             cadastro = new frmCadastro();
-            principal = new frmPrincipal();
+            principal = new Principal();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -56,7 +57,7 @@ namespace Login
                     SqlConnection con = new SqlConnection();
                     con.ConnectionString = cs;
 
-                    String consulta = "Select email, usuario from Usuario " +
+                    String consulta = "Select email from Usuario " +
                         "              where email = @email and  senha = @senha";
                     SqlCommand cmd = new SqlCommand(consulta,con); //Representa um comando ou procedimento que sera feito bd
                     cmd.Parameters.AddWithValue("@email", txtName.Text);
@@ -71,11 +72,10 @@ namespace Login
 
                     if (ds.Tables[0].Rows.Count == 0) //Se não retornou nada do bd
                     {
-                        MessageBox.Show("Não está cadastrado.");
-                        cadastro.Show();
+                       throw new Exception("Não está cadastrado.");
                     }
                     else{
-                        principal.Show();
+                      principal.Show();
                     }                   
 
                 }

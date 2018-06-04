@@ -298,7 +298,7 @@ namespace Login {
                         this.tableInfoAprendida.codAstroColumn}, false);
             this.Relations.Add(this.relationfkAstroInfoAprendida);
             this.relationfkUsuarioInfoAprendida = new global::System.Data.DataRelation("fkUsuarioInfoAprendida", new global::System.Data.DataColumn[] {
-                        this.tableUsuario.usuarioColumn}, new global::System.Data.DataColumn[] {
+                        this.tableUsuario.idColumn}, new global::System.Data.DataColumn[] {
                         this.tableInfoAprendida.usuarioColumn}, false);
             this.Relations.Add(this.relationfkUsuarioInfoAprendida);
             this.relationfkcodAstroPergunta = new global::System.Data.DataRelation("fkcodAstroPergunta", new global::System.Data.DataColumn[] {
@@ -1360,7 +1360,7 @@ namespace Login {
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class UsuarioDataTable : global::System.Data.TypedTableBase<UsuarioRow> {
             
-            private global::System.Data.DataColumn columnusuario;
+            private global::System.Data.DataColumn columnid;
             
             private global::System.Data.DataColumn columnnome;
             
@@ -1405,9 +1405,9 @@ namespace Login {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public global::System.Data.DataColumn usuarioColumn {
+            public global::System.Data.DataColumn idColumn {
                 get {
-                    return this.columnusuario;
+                    return this.columnid;
                 }
             }
             
@@ -1480,10 +1480,10 @@ namespace Login {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public UsuarioRow AddUsuarioRow(string usuario, string nome, string email, string senha, int pontuacao) {
+            public UsuarioRow AddUsuarioRow(string id, string nome, string email, string senha, int pontuacao) {
                 UsuarioRow rowUsuarioRow = ((UsuarioRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
-                        usuario,
+                        id,
                         nome,
                         email,
                         senha,
@@ -1495,9 +1495,9 @@ namespace Login {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public UsuarioRow FindByusuario(string usuario) {
+            public UsuarioRow FindByid(string id) {
                 return ((UsuarioRow)(this.Rows.Find(new object[] {
-                            usuario})));
+                            id})));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1517,7 +1517,7 @@ namespace Login {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
             internal void InitVars() {
-                this.columnusuario = base.Columns["usuario"];
+                this.columnid = base.Columns["id"];
                 this.columnnome = base.Columns["nome"];
                 this.columnemail = base.Columns["email"];
                 this.columnsenha = base.Columns["senha"];
@@ -1527,8 +1527,8 @@ namespace Login {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
             private void InitClass() {
-                this.columnusuario = new global::System.Data.DataColumn("usuario", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnusuario);
+                this.columnid = new global::System.Data.DataColumn("id", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnid);
                 this.columnnome = new global::System.Data.DataColumn("nome", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnnome);
                 this.columnemail = new global::System.Data.DataColumn("email", typeof(string), null, global::System.Data.MappingType.Element);
@@ -1538,10 +1538,10 @@ namespace Login {
                 this.columnpontuacao = new global::System.Data.DataColumn("pontuacao", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnpontuacao);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
-                                this.columnusuario}, true));
-                this.columnusuario.AllowDBNull = false;
-                this.columnusuario.Unique = true;
-                this.columnusuario.MaxLength = 20;
+                                this.columnid}, true));
+                this.columnid.AllowDBNull = false;
+                this.columnid.Unique = true;
+                this.columnid.MaxLength = 20;
                 this.columnnome.AllowDBNull = false;
                 this.columnnome.MaxLength = 20;
                 this.columnemail.AllowDBNull = false;
@@ -1944,12 +1944,12 @@ namespace Login {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public string usuario {
+            public string id {
                 get {
-                    return ((string)(this[this.tableUsuario.usuarioColumn]));
+                    return ((string)(this[this.tableUsuario.idColumn]));
                 }
                 set {
-                    this[this.tableUsuario.usuarioColumn] = value;
+                    this[this.tableUsuario.idColumn] = value;
                 }
             }
             
@@ -3399,7 +3399,7 @@ SELECT codPergunta, codAstro, pergunta, resposta, a, b, c FROM BDPRII17165.Pergu
             global::System.Data.Common.DataTableMapping tableMapping = new global::System.Data.Common.DataTableMapping();
             tableMapping.SourceTable = "Table";
             tableMapping.DataSetTable = "Usuario";
-            tableMapping.ColumnMappings.Add("usuario", "usuario");
+            tableMapping.ColumnMappings.Add("usuario", "id");
             tableMapping.ColumnMappings.Add("nome", "nome");
             tableMapping.ColumnMappings.Add("email", "email");
             tableMapping.ColumnMappings.Add("senha", "senha");
@@ -3699,14 +3699,6 @@ SELECT usuario, nome, email, senha, pontuacao FROM BDPRII17165.Usuario WHERE (us
                     this.Adapter.UpdateCommand.Connection.Close();
                 }
             }
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(string nome, string email, string senha, global::System.Nullable<int> pontuacao, string Original_usuario, string Original_nome, string Original_email, string Original_senha, global::System.Nullable<int> Original_pontuacao) {
-            return this.Update(Original_usuario, nome, email, senha, pontuacao, Original_usuario, Original_nome, Original_email, Original_senha, Original_pontuacao);
         }
     }
     
