@@ -1,0 +1,87 @@
+F:\3º Semestre\PPII\Login3\frmLogin\Principal\bin\Debug\Principal.exe.config
+F:\3º Semestre\PPII\Login3\frmLogin\Principal\bin\Debug\Principal.exe
+F:\3º Semestre\PPII\Login3\frmLogin\Principal\bin\Debug\Principal.pdb
+F:\3º Semestre\PPII\Login3\frmLogin\Principal\obj\Debug\Principal.Properties.Resources.resources
+F:\3º Semestre\PPII\Login3\frmLogin\Principal\obj\Debug\Principal.csproj.GenerateResource.Cache
+F:\3º Semestre\PPII\Login3\frmLogin\Principal\obj\Debug\Principal.csproj.CoreCompileInputs.cache
+F:\3º Semestre\PPII\Login3\frmLogin\Principal\obj\Debug\Principal.exe
+F:\3º Semestre\PPII\Login3\frmLogin\Principal\obj\Debug\Principal.pdb
+F:\3º Semestre\PPII\Login3\frmLogin\Principal\obj\Debug\Principal.csprojResolveAssemblyReference.cache
+E:\3º Semestre\PPII\Login3\frmLogin\Principal\obj\Debug\Principal.csprojResolveAssemblyReference.cache
+E:\3º Semestre\PPII\Login3\frmLogin\Principal\obj\Debug\Principal.exe
+E:\3º Semestre\PPII\Login3\frmLogin\Principal\obj\Debug\Principal.pdb
+E:\3º Semestre\PPII\Login3\frmLogin\Principal\bin\Debug\Principal.exe.config
+E:\3º Semestre\PPII\Login3\frmLogin\Principal\bin\Debug\Principal.exe
+E:\3º Semestre\PPII\Login3\frmLogin\Principal\bin\Debug\Principal.pdb
+E:\3º Semestre\PPII\Login3\frmLogin\Principal\obj\Debug\Principal.DragDrop.resources
+E:\3º Semestre\PPII\Login3\frmLogin\Principal\obj\Debug\Principal.Principal.resources
+E:\3º Semestre\PPII\Login3\frmLogin\Principal\obj\Debug\Principal.Properties.Resources.resources
+E:\3º Semestre\PPII\Login3\frmLogin\Principal\obj\Debug\Principal.csproj.GenerateResource.Cache
+E:\3º Semestre\PPII\Login3\frmLogin\Principal\obj\Debug\Principal.csproj.CoreCompileInputs.cache
+F:\3º Semestre\PPII\Login3\frmLogin\Principal\obj\Debug\Principal.DragDrop.resources
+F:\3º Semestre\PPII\Login3\frmLogin\Principal\obj\Debug\Principal.Principal.resources
+Z:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\bin\Debug\Principal.exe.config
+Z:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\bin\Debug\Principal.exe
+Z:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\bin\Debug\Principal.pdb
+Z:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.csprojResolveAssemblyReference.cache
+Z:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.DragDrop.resources
+Z:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.Principal.resources
+Z:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.Properties.Resources.resources
+Z:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.csproj.GenerateResource.Cache
+Z:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.csproj.CoreCompileInputs.cache
+Z:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.exe
+Z:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.pdb
+Z:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.frmQuiz.resources
+E:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\bin\Debug\Principal.exe.config
+E:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\bin\Debug\Principal.exe
+E:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\bin\Debug\Principal.pdb
+E:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.csprojAssemblyReference.cache
+E:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.DragDrop.resources
+E:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.Principal.resources
+E:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.Properties.Resources.resources
+E:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.frmQuiz.resources
+E:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.csproj.GenerateResource.cache
+E:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.csproj.CoreCompileInputs.cache
+E:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.exe
+E:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.pdb
+E:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.Pontos.resources
+F:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\bin\Debug\Principal.exe.config
+F:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\bin\Debug\Principal.exe
+F:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\bin\Debug\Principal.pdb
+F:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.csprojResolveAssemblyReference.cache
+F:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.DragDrop.resources
+F:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.Pontos.resources
+F:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.Principal.resources
+F:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.Properties.Resources.resources
+F:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.frmQuiz.resources
+F:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.csproj.GenerateResource.Cache
+F:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.csproj.CoreCompileInputs.cache
+F:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.exe
+F:\3º Semestre\PPII\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.pdb
+Z:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.Pontos.resources
+Y:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.csprojAssemblyReference.cache
+Y:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.DragDrop.resources
+Y:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.Pontos.resources
+Y:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.Principal.resources
+Y:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.Properties.Resources.resources
+Y:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.frmQuiz.resources
+Y:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.csproj.GenerateResource.cache
+Y:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.csproj.CoreCompileInputs.cache
+Y:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.exe
+Y:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.pdb
+Y:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\bin\Debug\Principal.exe.config
+Y:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\bin\Debug\Principal.exe
+Y:\3º Semestre\PPII  - REAL\Login3\frmLogin\Principal\bin\Debug\Principal.pdb
+F:\PPII  - REAL\Login3\frmLogin\Principal\bin\Debug\Principal.exe.config
+F:\PPII  - REAL\Login3\frmLogin\Principal\bin\Debug\Principal.exe
+F:\PPII  - REAL\Login3\frmLogin\Principal\bin\Debug\Principal.pdb
+F:\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.csprojResolveAssemblyReference.cache
+F:\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.DragDrop.resources
+F:\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.Pontos.resources
+F:\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.Principal.resources
+F:\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.Properties.Resources.resources
+F:\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.frmQuiz.resources
+F:\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.csproj.GenerateResource.Cache
+F:\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.csproj.CoreCompileInputs.cache
+F:\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.exe
+F:\PPII  - REAL\Login3\frmLogin\Principal\obj\Debug\Principal.pdb
